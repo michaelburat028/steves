@@ -1,0 +1,75 @@
+{
+  "app": {
+    "title": "JavaScript - Design",
+    "theme": {
+      "primaryColor": "#4CAF50",
+      "secondaryColor": "#ffffff",
+      "font": "Arial, sans-serif"
+    },
+    "nav": {
+      "brand": "JS Design",
+      "items": [
+        { "name": "Startseite", "section": "home" },
+        { "name": "Leistungen", "section": "leistungen" },
+        { "name": "Über uns", "section": "about" },
+        { "name": "Projekte", "section": "projekte" },
+        { "name": "Kontakt", "section": "kontakt" }
+      ]
+    },
+    "layout": {
+      "header": {
+        "visible": true,
+        "text": "Willkommen 👋"
+      },
+      "main": {
+        "sections": [
+          {
+            "id": "home",
+            "type": "card",
+            "title": "Willkommen bei JS Design",
+            "content": "Wir sind nicht einfach nur Entwickler – wir erschaffen digitale Erlebnisse. Unsere Leidenschaft liegt darin, moderne, schnelle und flexible Webanwendungen zu entwickeln, die nicht nur funktionieren, sondern begeistern.\n\nMit einer Kombination aus YAML-basierter Struktur und dynamischem JavaScript ermöglichen wir Systeme, die leicht wartbar, extrem skalierbar und unglaublich performant sind. Unsere Lösungen sind darauf ausgelegt, sich deinem Projekt anzupassen – nicht umgekehrt."
+          },
+          {
+            "id": "leistungen",
+            "type": "list",
+            "title": "Unsere Leistungen",
+            "items": [
+              "Individuelle Webentwicklung mit modernsten Technologien",
+              "UI/UX Design mit Fokus auf Benutzererlebnis",
+              "Performance Optimierung für blitzschnelle Ladezeiten",
+              "Modulare Systeme für maximale Flexibilität",
+              "Beratung und Architektur für skalierbare Projekte"
+            ]
+          },
+          {
+            "id": "about",
+            "type": "card",
+            "title": "Über uns",
+            "content": "Hinter JS Design steht ein kreatives Team aus Entwicklern und Designern, die eines gemeinsam haben: den Anspruch, digitale Produkte besser zu machen.\n\nWir glauben daran, dass gute Software nicht kompliziert sein muss. Deshalb setzen wir auf klare Strukturen, sauberen Code und innovative Ansätze, die sowohl Entwicklern als auch Nutzern das Leben leichter machen.\n\nUnser Ziel ist es, Projekte zu realisieren, die nicht nur heute funktionieren, sondern auch morgen noch relevant sind."
+          },
+          {
+            "id": "projekte",
+            "type": "list",
+            "title": "Unsere Projekte",
+            "items": [
+              "Moderne Firmenwebsites mit dynamischem Content",
+              "Interaktive Dashboards für Datenvisualisierung",
+              "Performante Landingpages für Marketingkampagnen",
+              "Individuelle Tools und Web-Apps für Unternehmen",
+              "Prototypen und MVPs für Startups"
+            ]
+          },
+          {
+            "id": "kontakt",
+            "type": "button",
+            "text": "Jetzt Kontakt aufnehmen",
+            "action": "showAlert"
+          }
+        ]
+      },
+      "footer": {
+        "text": "© 2026 JS Design – Moderne Webentwicklung neu gedacht"
+      }
+    }
+  }
+}
