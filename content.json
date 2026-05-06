@@ -8,7 +8,7 @@
     },
     "nav": {
       "brand": "JS Design",
-      "icon": "https://picsum.photos/40",
+      "icon": "./img/",
       "items": [
         { "name": "Startseite", "section": "hero" },
         { "name": "Leistungen", "section": "leistungen" },
@@ -24,7 +24,7 @@
             "type": "hero",
             "title": "Moderne Webentwicklung",
             "subtitle": "Schnell. Flexibel. Skalierbar.",
-            "background": "https://picsum.photos/1200/800",
+            "background": "./f03ffa6f-9bf6-4bb9-8d10-af5ea1b873b2.png",
             "buttonText": "Jetzt starten",
             "buttonAction": "showAlert"
           },
