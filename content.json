@@ -8,6 +8,7 @@
     },
     "nav": {
       "brand": "JS Design",
+      "icon": "https://picsum.photos/40",
       "items": [
         { "name": "Startseite", "section": "hero" },
         { "name": "Leistungen", "section": "leistungen" },
@@ -18,7 +19,6 @@
     "layout": {
       "main": {
         "sections": [
-
           {
             "id": "hero",
             "type": "hero",
@@ -28,7 +28,6 @@
             "buttonText": "Jetzt starten",
             "buttonAction": "showAlert"
           },
-
           {
             "id": "leistungen",
             "type": "list",
@@ -39,14 +38,12 @@
               "Performance Optimierung"
             ]
           },
-
           {
             "id": "projekte",
             "type": "card",
             "title": "Unsere Projekte",
             "content": "Moderne Webapps und Tools für Unternehmen."
           },
-
           {
             "id": "kontakt",
             "type": "button",
